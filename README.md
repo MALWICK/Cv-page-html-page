@@ -2,7 +2,7 @@
 
 ## App
 
-![avarta](/assets/styles/images/avatar_hat.png)
+![avarta](/assets/images/avatar_hat.png)
 
 ## AUTHOR
 
