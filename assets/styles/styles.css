@@ -30,7 +30,7 @@ main {
 }
 
 .jane {
-  background: url("/assets/styles/images/avatar_hat.png");
+  background: url("../images/avatar_hat.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
