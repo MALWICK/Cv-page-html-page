@@ -20,12 +20,13 @@ body {
 main {
   padding-top: 1%;
   margin: auto;
-  width: 70%;
+  max-width: 1224px;
+  width: 98vw;
   grid-template-columns: 35% 1fr;
   display: grid;
   column-gap: 30px;
   justify-content: center;
-  filter: drop-shadow(5px 5px 5px 5px #5d6568);
+  filter: drop-shadow( 5px  #5d6568);
 }
 
 .jane {
@@ -42,21 +43,21 @@ main {
 .doe {
   position: absolute;
   left: 3;
-  top: 29%;
+  top: 20%;
+  padding: 10px;
 }
 
 .left {
   background-color: #fffcfc;
   height: fit-content;
-  padding: 0 8px;
   line-height: 3.7;
   border: 10px black;
-  box-shadow: 5px 5px 5px 5px #5b5b5b;
-  filter: drop-shadow(5px 5px 5px 5px #5d6568);
+  box-shadow: 0 0 10px #5b5b5b;
 }
 
 .personal {
   font-weight: 100;
+  padding: 10px;
 }
 
 .cont {
@@ -136,8 +137,7 @@ span {
   margin-top: 1%;
   padding: 0.9rem;
   border: 1px solid #cacaca;
-  box-shadow: 5px 5px 5px 5px #595757;
-  filter: drop-shadow(5px 5px 5px 5px #5d6568);
+  box-shadow: 0 0 10px #595757;
   line-height: 3;
 }
 
@@ -146,8 +146,7 @@ span {
   line-height: 2.1;
   border: 1px solid #cacaca;
   background-color: white;
-  box-shadow: 5px 5px 5px 5px #757474;
-  filter: drop-shadow(5px 5px 5px 5px #5d6568);
+  box-shadow: 0  0 10px #757474;
 }
 
 i {
@@ -174,10 +173,9 @@ hr {
   align-content: center;
   color: white;
   line-height: 2;
-  width: 100%;
+  /* width: 100%; */
   background-color: #009688;
   padding: 2%;
-  position: sticky;
 }
 
 a {
@@ -199,11 +197,10 @@ h3 {
   padding: 2%;
 }
 
-@media (max-width: 601px) {
+@media (max-width: 600px) {
   main {
-    display: grid;
-    grid-template-columns: 70vw;
-    width: 33.33%;
+    display: block;
+    width: 98vw;
   }
 
   .left {
@@ -217,7 +214,19 @@ h3 {
 
   .work-exp {
     line-height: 1.9;
+    margin-bottom: 2rem;
   }
+
+.doe {
+  position: absolute;
+  left: 3;
+  top: 29%;
+}
+
+.end {
+  width: 100%;
+}
+
 }
 
 @media (max-width: 320px) {
