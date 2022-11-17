@@ -26,7 +26,7 @@ main {
   display: grid;
   column-gap: 30px;
   justify-content: center;
-  filter: drop-shadow( 5px  #5d6568);
+  filter: drop-shadow(5px #5d6568);
 }
 
 .jane {
@@ -146,7 +146,7 @@ span {
   line-height: 2.1;
   border: 1px solid #cacaca;
   background-color: white;
-  box-shadow: 0  0 10px #757474;
+  box-shadow: 0 0 10px #757474;
 }
 
 i {
@@ -217,16 +217,15 @@ h3 {
     margin-bottom: 2rem;
   }
 
-.doe {
-  position: absolute;
-  left: 3;
-  top: 29%;
-}
+  .doe {
+    position: absolute;
+    left: 3;
+    top: 29%;
+  }
 
-.end {
-  width: 100%;
-}
-
+  .end {
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
