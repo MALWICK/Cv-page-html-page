@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 2;
+  background-color: #fff;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 1%;
+  margin: auto;
+  max-width: 1224px;
+  width: 98vw;
+  grid-template-columns: 35% 1fr;
+  display: grid;
+  column-gap: 30px;
+  justify-content: center;
+  filter: drop-shadow(5px #5d6568);
+}
+
+.jane {
+  background: url("../images/avatar_hat.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  background-color: #fffcfc;
+}
+
+.doe {
+  position: absolute;
+  left: 3;
+  top: 20%;
+  padding: 10px;
+}
+
+.left {
+  background-color: #fffcfc;
+  height: fit-content;
+  line-height: 3.7;
+  border: 10px black;
+  box-shadow: 0 0 10px #5b5b5b;
+}
+
+.personal {
+  font-weight: 100;
+  padding: 10px;
+}
+
+.cont {
+  background-color: #f3f3f3;
+  width: 90%;
+  border-radius: 15px;
+  height: 20px;
+  font-size: small;
+  line-height: 2;
+}
+
+.lenght {
+  background-color: #009688;
+  color: #ededed;
+  text-align: right;
+  border-radius: 15px;
+}
+
+.adobe {
+  width: 90%;
+  height: 100%;
+}
+
+.photo {
+  width: 80%;
+  height: 100%;
+}
+
+.illu {
+  width: 75%;
+  height: 100%;
+}
+
+.english {
+  width: 100%;
+  border-radius: 15px;
+  height: 18px;
+  font-size: small;
+  line-height: 1.8;
+}
+
+.spanish {
+  width: 60%;
+  border-radius: 15px;
+  height: 18px;
+  font-size: small;
+  line-height: 1.8;
+}
+
+.german {
+  width: 40%;
+  border-radius: 15px;
+  height: 18px;
+  line-height: 1.8;
+}
+
+.skills {
+  margin-bottom: 10px;
+  padding: 3%;
+}
+
+.media {
+  width: 50%;
+  height: 100%;
+}
+
+span {
+  background-color: #009688;
+  color: #f5f0f0;
+}
+
+.right {
+  margin-bottom: 1%;
+}
+
+.educa {
+  margin-top: 1%;
+  padding: 0.9rem;
+  border: 1px solid #cacaca;
+  box-shadow: 0 0 10px #595757;
+  line-height: 3;
+}
+
+.work-exp {
+  padding: 0.6rem;
+  line-height: 2.1;
+  border: 1px solid #cacaca;
+  background-color: white;
+  box-shadow: 0 0 10px #757474;
+}
+
+i {
+  color: #009688;
+}
+
+hr {
+  height: 1px;
+  margin: 20px 0;
+  border-top: 1px solid #eee;
+}
+
+.rew {
+  color: #009688;
+}
+
+.rew1 {
+  color: #009688;
+}
+
+.end {
+  margin-top: 1%;
+  text-align: center;
+  align-content: center;
+  color: white;
+  line-height: 2;
+  background-color: #009688;
+  padding: 2%;
+}
+
+a {
+  color: white;
+}
+
+.end,
+.fa-brands {
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: #646262dd;
+}
+
+.hero {
+  padding: 2%;
+}
+
+@media (max-width: 600px) {
+  main {
+    display: block;
+    width: 98vw;
+  }
+
+  .left {
+    margin-bottom: 10%;
+  }
+
+  .educa {
+    margin-bottom: 3%;
+    line-height: 2.3;
+  }
+
+  .work-exp {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+  }
+
+  .doe {
+    position: absolute;
+    left: 3;
+    top: 29%;
+  }
+
+  .end {
+    width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .work-exp h2 {
+    font-size: large;
+  }
+
+  .left {
+    padding: 2px;
+  }
+}
